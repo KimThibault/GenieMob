@@ -1,0 +1,66 @@
+/*
+ Theme Name:   Elision Child
+ Theme URI:    http://example.com/elision-child/
+ Description:  Elision Child Theme
+ Author:       Kim Thibault
+ Author URI:   www.portfoliokimt.ca
+ Template:     elision
+ Version:      1.0.0 (a verifier)
+ License:      GNU General Public License v2 or later (a verifier)
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html (a verifier)
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready (a verifier)
+ Text Domain:  elision-child
+*/
+
+@font-face{
+	font-family: 'Age';
+	src: local('Age'), url('age/age.otf'), url('age.otf') format('opentype') ;  /* OTF  src: url("path-to-the-font-file/GraublauWeb.otf") format("opentype"); */	
+}
+
+h3,body{
+	font-family: 'Roboto','Helvetica', sans-serif;
+}
+h1,h2,.logo{
+	font-family: 'Age','Helvetica', sans-serif;	
+	letter-spacing: 0em;
+}
+h2{
+	text-align:center;
+}
+#footer > .inner section:nth-child(1) {
+	width: calc(33% - 2.5em);
+	margin-right: 1em;
+	margin-left: 1em;	
+}
+
+#footer > .inner section:nth-child(2) {
+	width: calc(33% - 2.5em);
+	margin-right: 2em;	
+	margin-left: 2em;
+}
+
+#footer > .inner section:nth-child(3) {
+	width: calc(33% - 2.5em);
+	margin-right: 1em;	
+	margin-left: 1em;
+}
+
+input,select,textarea,label{
+	-webkit-appearance: none;
+	-moz-appearance: none; 
+	appearance: none;
+	font-family: 'Roboto'; 
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1em;
+}
+section#get-in-touch form input,select,textarea,label{
+	color:#c9c9c9;
+}
+section#newsletter > form > table > tbody > tr {
+	border-style:none;
+}
+section#newsletter > form > table > tbody > tr > td > input,select,textarea,label{
+	margin:0 0 0 0.2em;	
+	color:#585858; 
+}

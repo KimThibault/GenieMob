@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>GenieMob</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/stylesCustomGenieMob.css" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro" rel="stylesheet"> 
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+	</head>
+
+	<body>
+		<ul class="topnav" id="myTopnav">
+			  <li><a href="#">Accueil</a></li>
+			  <li class="right"><a href="indexEN.html">English</a></li>
+			  <li class="right"><a href="index.html#title-ateliers">Nos ateliers</a></li>
+			  <li class="right"><a href="index.html#title-apropos">A propos</a></li>
+			  
+			  <li class="icon">
+			    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+			  </li>
+		</ul>
+	</body>
+
+	</html>
